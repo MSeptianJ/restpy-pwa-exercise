@@ -10,7 +10,7 @@ class ContentItem extends HTMLElement {
     this.innerHTML = `
       <h2 tabindex="0" class="content__name"><a href="${`/#/detail/${this._content.id}`}">${this._content.name}</a></h2>
 
-      <img tabindex="0" class="content__img" src="${`${CONFIG.BASE_IMAGE_URL}small/${this._content.pictureId}`}" alt="A Restaurant Image" crossorigin="anonymous">
+      <img loading="lazy" tabindex="0" class="content__img" src="${`${CONFIG.BASE_IMAGE_URL}small/${this._content.pictureId}`}" alt="A Restaurant Image" crossorigin="anonymous">
       
       <div class="content__sub">
         <h3 tabindex="0" class="content__address">${this._content.city}</h3>
