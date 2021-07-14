@@ -154,6 +154,9 @@
 }
 
 @media screen and (min-width: 925px){
+    .hero {
+        background-image: url("../public/heros/hero-image-large.jpg");
+    }
     .discount__images img:nth-child(2){
         display: flex;
     }

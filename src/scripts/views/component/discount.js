@@ -12,9 +12,9 @@ class Discount extends HTMLElement {
             <i class="fas fa-arrow-alt-circle-down"></i>
           </div>
           <div class="discount__images">
-            <img tabindex="0" src="https://dicoding-restaurant-api.el.r.appspot.com/images/medium/29" alt="Restaurant that has a discount" crossorigin="anonymous">
-            <img tabindex="0" src="https://dicoding-restaurant-api.el.r.appspot.com/images/medium/38" alt="Restaurant that has a discount" crossorigin="anonymous">
-            <img tabindex="0" src="https://dicoding-restaurant-api.el.r.appspot.com/images/medium/07" alt="Restaurant that has a discount" crossorigin="anonymous">
+            <img tabindex="0" src="https://restaurant-api.dicoding.dev/images/small/29" alt="Restaurant that has a discount" crossorigin="anonymous">
+            <img tabindex="0" src="https://restaurant-api.dicoding.dev/images/small/38" alt="Restaurant that has a discount" crossorigin="anonymous">
+            <img tabindex="0" src="https://restaurant-api.dicoding.dev/images/small/07" alt="Restaurant that has a discount" crossorigin="anonymous">
           </div>
         </div>
       </div>

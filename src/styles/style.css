@@ -233,7 +233,7 @@ app-bar {
     min-height: 380px;
     width: 100%;
     text-align: center;
-    background-image: url("../public/heros/hero-image_2.jpg");
+    background-image: url("../public/heros/hero-image-small.jpg");
     background-size: cover;
     background-position: center;
 }
