@@ -6,6 +6,8 @@ import './views/component/hero';
 import './views/component/contacts';
 import './views/component/discount';
 import './views/component/copyright-bar';
+import 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 import App from './views/app';
 import swRegister from './utils/sw-register';
 
