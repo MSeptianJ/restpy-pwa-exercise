@@ -15,7 +15,7 @@ class ContentList extends HTMLElement {
   }
 
   render() {
-    if (this._contents.length){
+    if (this._contents.length) {
       this._contents.forEach((content) => {
         const contentItemEl = document.createElement('content-item');
         contentItemEl.content = content;
@@ -29,7 +29,6 @@ class ContentList extends HTMLElement {
       `;
     }
   }
-
 }
 
 customElements.define('content-list', ContentList);
