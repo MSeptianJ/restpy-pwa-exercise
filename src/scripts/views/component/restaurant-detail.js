@@ -1,6 +1,7 @@
 import CONFIG from '../../globals/CONFIG';
 import './customer-review';
-import LikeButtonInitiator from '../../utils/like-button-initiator';
+import LikeButtonPresenter from '../../utils/like-button-presenter';
+import FavoriteRestaurantIdb from '../../data/favoriteRestaurant-idb';
 
 class RestaurantDetail extends HTMLElement {
   set content(content) {
@@ -117,8 +118,9 @@ class RestaurantDetail extends HTMLElement {
   }
 
   async renderLikeButton() {
-    await LikeButtonInitiator.init({
+    await LikeButtonPresenter.init({
       likeButtonContainer: document.getElementById('likeButtonContainer'),
+      favoriteRestaurant: FavoriteRestaurantIdb,
       restaurant: {
         id: this._content.id,
         name: this._content.name,
